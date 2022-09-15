@@ -5,3 +5,23 @@ form {text-align: center;}
 .text-center {
     text-align: center;
   }
+
+.Banana { 
+    width: 400px;
+    position: relative;
+    top: 25px;
+    left: 250px;
+}
+
+.BananaButton {
+    width: 100px;
+    position: relative;
+    top:50px;
+    left: 425px;
+}
+
+.MoneyCounter { 
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
