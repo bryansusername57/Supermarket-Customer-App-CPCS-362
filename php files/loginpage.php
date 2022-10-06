@@ -15,9 +15,10 @@
       <div class="login-page">
       <div class="form">
       <form class="login-form">
-      <input type="text" placeholder="Username"/>
-      <input type="password" placeholder="Password"/>
-      <button>login</button>
+      <input type="text" placeholder="Username" name="username"/>
+      <input type="password" placeholder="Password" name="password"/>
+      <button onclick="location.href='homepage.php'" type="button"> login</button>
+	  
       <p class="message">Not registered? <a href="signuppage.php">Create an account</a></p>
     </form>
     </div>
