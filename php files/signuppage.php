@@ -15,6 +15,8 @@
       <form action="insert.php" method="post" class="login-form">
       <input type="text" placeholder="Username" name="username"/>
       <input type="password" placeholder="Password" name="password"/>
+	  <input type="text" placeholder="Email Address" name="email"/>
+	  
       <button>Sign Up</button>
       <p class="message">Already registered? <a href="loginpage.php">Go to Login</a></p>
     </form>
