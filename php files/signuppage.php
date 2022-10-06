@@ -16,7 +16,7 @@
       <input type="text" placeholder="Username" name="username"/>
       <input type="password" placeholder="Password" name="password"/>
       <button>Sign Up</button>
-      <p class="message">Already registered? <a href="signuppage.php">Go to Login</a></p>
+      <p class="message">Already registered? <a href="loginpage.php">Go to Login</a></p>
     </form>
     </div>
     </div>
