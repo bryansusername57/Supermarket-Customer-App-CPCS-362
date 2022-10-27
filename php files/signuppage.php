@@ -13,6 +13,9 @@
       <div class="login-page">
       <div class="form">
       <form action="insert.php" method="post" class="login-form">
+	  <?php if(isset($_GET['error'])) { ?>
+			<p class="error"> <?php echo $_GET['error']; ?> </p>
+		<?php } ?>
       <input type="text" placeholder="Username" name="username"/>
       <input type="password" placeholder="Password" name="password"/>
 	  <input type="text" placeholder="Email Address" name="email"/>

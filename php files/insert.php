@@ -4,6 +4,11 @@ if(isset($_POST['username'],$_POST['password'],$_POST['email'])) {
 	$username = $_POST['username'];
 	$password = $_POST['password'];
 	$email = $_POST['email'];
+	
+	if(empty($username) || empty($password) || empty($email)) {
+		header ("Location: signuppage.php?error=MISSING INFORMATION");
+		exit();
+	}
 
 	$db = new mysqli('localhost','root','','market');
 
