@@ -11,15 +11,19 @@
 
     </head>
 
-    <body>
+<body>
       <div class="login-page">
       <div class="form">
-      <form class="login-form">
+      <form action="checklogin.php" method="post" class="login-form">
+	  <?php if(isset($_GET['error'])) { ?>
+			<p class="error"> <?php echo $_GET['error']; ?> </p>
+	  <?php } else {?>
+	  <?php }?>
       <input type="text" placeholder="Username" name="username"/>
       <input type="password" placeholder="Password" name="password"/>
-      <button onclick="location.href='homepage.php'" type="button"> Login</button>
 	  
-      <p class="message">Not registered? <a href="signuppage.php">Create an account</a></p>
+      <button>Login</button>
+      <p class="message">Not registered? <a href="signuppage.php">Click to SIgnup</a></p>
     </form>
     </div>
     </div>
