@@ -11,7 +11,7 @@
 
     </head>
 
-<body>
+<body class = "loginBackground">
       <div class="login-page">
       <div class="form">
       <form action="checklogin.php" method="post" class="login-form">

@@ -9,7 +9,7 @@
 
     </head>
 
-	<body>
+	<body class = "signUpPageBackGround">
       <div class="login-page">
       <div class="form">
       <form action="insert.php" method="post" class="login-form">
