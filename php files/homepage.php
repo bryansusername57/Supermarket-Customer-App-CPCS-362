@@ -1,16 +1,14 @@
 <?php
+session_start();
+
+include("functions.php");
 $conn = mysqli_connect('localhost','root','','market');
 
-$query = "SELECT * FROM person";
-$result = mysqli_query($conn, $query);
+$user_data = check_login($conn);
 
-while ($row = mysqli_fetch_row($result)) {
-    printf("Hello (%s)", $row[1]);
-	printf(" You have $%s left", $row[4]);
-	echo "<br />";
-}
+echo $user_data['username'];
 
-echo 'banana'; 
+echo 'banana';
 ?> 
 
 <!DOCTYPE html>
@@ -45,7 +43,7 @@ echo 'banana';
 
 
 <h2>Search Bar would go here</h2>
-<p>Temp text</p>
+<p> Hello, <?php echo $user_data['username']; ?> </p>
 
 
 
