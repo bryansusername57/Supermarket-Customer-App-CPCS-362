@@ -41,7 +41,7 @@ echo 'banana';
 
 
 <h2>Search Bar would go here</h2>
-<p> Hello, <?php echo $user_data['username'];?>, you have $<?php echo $user_data['money'];?> </p>
+<p> Hello, <?php echo $user_data['username'];?>, you have $<?php echo $user_data['money'];?> and <?php echo $user_data['points'];?> points.</p>
 
 
 
@@ -52,6 +52,9 @@ echo 'banana';
     
     <div class = "buttonUnderPic"> 
     <button class = "buyingButton" onclick="location.href = 'money.php?item=banana'" type="button"> Banana $0.49 </button>
+	<div class = "buttonUnderPic">
+		<button class = "buyingButton" onclick="location.href = 'money.php?item=banana'" type="button"> Use Points </button>
+	</div>
     </div>
   
   </div>
@@ -61,6 +64,9 @@ echo 'banana';
   
     <div class = "buttonUnderPic"> 
 	<button  class = "buyingButton" onclick="location.href = 'money.php?item=watermelon';" type="button">  Watermelon $3.49 </button>
+	<div class = "buttonUnderPic">
+		<button class = "buyingButton" onclick="location.href = 'money.php?item=watermelon'" type="button"> Use Points (349)</button>
+	</div>
 	</form>
     </div>
  
@@ -71,6 +77,9 @@ echo 'banana';
   
     <div class = "buttonUnderPic"> 
     <button  class = "buyingButton" onclick="location.href = 'money.php?item=onion';" type="button">  Onion $0.99 </button>
+	<div class = "buttonUnderPic">
+		<button class = "buyingButton" onclick="location.href = 'money.php?item=banana'" type="button"> Use Points </button>
+	</div>
     </div>
  
   </div>
@@ -84,6 +93,9 @@ echo 'banana';
     
     <div class = "buttonUnderPic"> 
     <button class = "buyingButton" onclick="location.href = 'money.php?item=chicken';" type="button"> Chicken $10.99 </button>
+	<div class = "buttonUnderPic">
+		<button class = "buyingButton" onclick="location.href = 'money.php?item=banana'" type="button"> Use Points </button>
+	</div>
     </div>
   
   </div>
@@ -93,6 +105,9 @@ echo 'banana';
   
     <div class = "buttonUnderPic"> 
     <button  class = "buyingButton" onclick="location.href = 'money.php?item=sweetpotato';" type="button">  Sweet Potato $0.49 </button>
+	<div class = "buttonUnderPic">
+		<button class = "buyingButton" onclick="location.href = 'money.php?item=banana'" type="button"> Use Points </button>
+	</div>
     </div>
  
    </div>
@@ -107,6 +122,9 @@ echo 'banana';
     
     <div class = "buttonUnderPic"> 
     <button class = "buyingButton" onclick="location.href = 'money.php?item=avacado';" type="button"> Avacado $1.99 </button>
+	<div class = "buttonUnderPic">
+		<button class = "buyingButton" onclick="location.href = 'money.php?item=banana'" type="button"> Use Points </button>
+	</div>
     </div>
   
   </div>
@@ -116,6 +134,9 @@ echo 'banana';
   
     <div class = "buttonUnderPic"> 
     <button  class = "buyingButton" onclick="location.href = 'money.php?item=carrots';" type="button">  Carrots $0.99 </button>
+	<div class = "buttonUnderPic">
+		<button class = "buyingButton" onclick="location.href = 'money.php?item=banana'" type="button"> Use Points </button>
+	</div>
     </div>
  
    </div>
@@ -125,6 +146,9 @@ echo 'banana';
   
     <div class = "buttonUnderPic"> 
     <button  class = "buyingButton" onclick="location.href = 'money.php?item=limes';" type="button">  Limes $0.49 </button>
+	<div class = "buttonUnderPic">
+		<button class = "buyingButton" onclick="location.href = 'money.php?item=banana'" type="button"> Use Points </button>
+	</div>
     </div>
  
    </div>
@@ -138,6 +162,9 @@ echo 'banana';
   
     <div class = "buttonUnderPic"> 
     <button  class = "buyingButton" onclick="location.href = 'money.php?item=orange';" type="button">  Orange $1.99 </button>
+	<div class = "buttonUnderPic">
+		<button class = "buyingButton" onclick="location.href = 'money.php?item=banana'" type="button"> Use Points </button>
+	</div>
     </div>
  
   </div>
@@ -146,6 +173,9 @@ echo 'banana';
   
     <div class = "buttonUnderPic"> 
     <button  class = "buyingButton" onclick="location.href = 'money.php?item=lettuce';" type="button">  Lettuce $2.99 </button>
+	<div class = "buttonUnderPic">
+		<button class = "buyingButton" onclick="location.href = 'money.php?item=banana'" type="button"> Use Points </button>
+	</div>
     </div>
  
   </div>
