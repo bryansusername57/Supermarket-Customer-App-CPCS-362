@@ -17,7 +17,6 @@
   outline: none; border:none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: all .2s linear;
 }
 
 html{
@@ -35,6 +34,7 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
+  padding-top: 100px;
 }
 
 .btn{
@@ -214,10 +214,6 @@ body {
   text-align: center;
   margin:1rem;
 }
-
-
-
-
 
 
 

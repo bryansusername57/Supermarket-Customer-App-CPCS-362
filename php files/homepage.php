@@ -88,9 +88,9 @@ echo 'banana';
 
 <section class="home" id="home">
   <!-- Stopped at 33:49, did not write class content yet -->
+
+
 </section>
-
-
 
 
 
