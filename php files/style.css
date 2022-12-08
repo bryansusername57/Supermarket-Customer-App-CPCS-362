@@ -225,8 +225,8 @@ section{
   background: url(image/banner-bg.webp) no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 17rem;
-  padding-bottom: 10rem;
+  padding-top: 12rem;
+  padding-bottom: 8rem;
 }
 
 .home .content {
@@ -248,6 +248,16 @@ section{
   font-size: 1.7rem;
   padding:1rem 0;
   line-height: 1.8;
+}
+.UsernameAndMoney{
+  text-align: center;
+}
+.UsernameAndMoney .Username {
+  font-size:5rem;
+}
+
+.UsernameAndMoney .Money {
+  font-size:1.5rem;
 }
 
 .products .product-slider{
@@ -740,25 +750,6 @@ button.buyingButton:hover {
   grid-gap:25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width:991px){
 
   html{
@@ -802,8 +793,6 @@ button.buyingButton:hover {
     display:block;
   }
 }
-
-
 
 
 @media(max-width:450px){
