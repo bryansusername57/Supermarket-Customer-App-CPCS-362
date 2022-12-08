@@ -6,9 +6,6 @@ document.querySelector('#search-btn').onclick = () => {
     navbar.classList.remove('active')
 }
 
-document.querySelector('#login-btn').onclick = () => {
-    window.location.replace('loginpage.php');
-}
 let shoppingCart = document.querySelector('.shopping-cart');
 
 document.querySelector('#cart-btn').onclick = () => {
@@ -30,3 +27,46 @@ window.onscroll = () => {
     shoppingCart.classList.remove ('active')
     navbar.classList.remove('active')
 }
+
+
+var swiper = new Swiper(".product-slider", {
+    loop:true,
+    spaceBetween: 20,
+    autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+    },
+    centeredSlides: true,
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1020: {
+        slidesPerView: 3,
+      },
+    },
+});
+
+var swiper = new Swiper(".review-slider", {
+    loop:true,
+    spaceBetween: 20,
+    autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+    },
+    centeredSlides: true,
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1020: {
+        slidesPerView: 3,
+      },
+    },
+});
