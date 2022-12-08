@@ -1,13 +1,10 @@
-<?php 
-session_start();
+<?php session_start();
 
 include("functions.php");
 $conn = mysqli_connect('localhost','root','','market');
 
-$user_data = check_login($conn);
+$user_data = check_login($conn);?> 
 
-echo 'banana'; 
-?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,11 +85,7 @@ echo 'banana';
 
 
 
-<p> Hello, <?php echo $user_data['username'];?>, you have $<?php echo $user_data['money'];?> and <?php echo $user_data['points'];?> points.</p>
-<?php if(isset($_GET['error'])) { ?>
-<p class="error"> <?php echo $_GET['error']; ?> </p>
-<?php } else {?>
-<?php }?> </p>
+
 
 
 <!-- Home section -->
@@ -106,6 +99,12 @@ echo 'banana';
 </section>
 
 <!-- Products section -->
+<p> Hello, <?php echo $user_data['username'];?>, you have $<?php echo $user_data['money'];?> and <?php echo $user_data['points'];?> points.</p>
+<?php if(isset($_GET['error'])) { ?>
+<p class="error"> <?php echo $_GET['error']; ?> </p>
+<?php } else {?>
+<?php }?> </p>
+
 
 <section class="products" id = "Products">
    <h1 class="heading"> our <span> products </span> </h1>

@@ -22,6 +22,10 @@ document.querySelector('#menu-btn').onclick = () => {
     shoppingCart.classList.remove ('active')
 }
 
+document.querySelector('#login-btn').onclick = () => {
+    window.location.replace('loginpage.php');
+}
+
 window.onscroll = () => {
     searchFrom.classList.remove('active')
     shoppingCart.classList.remove ('active')
