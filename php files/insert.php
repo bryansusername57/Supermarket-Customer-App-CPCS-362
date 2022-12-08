@@ -1,9 +1,18 @@
 <?php
 
+include("functions.php");
+$conn = mysqli_connect('localhost','root','','market');
+
 if(isset($_POST['username'],$_POST['password'],$_POST['email'])) {
 	$username = $_POST['username'];
 	$password = $_POST['password'];
 	$email = $_POST['email'];
+	
+	$num = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM person WHERE username = '$username'"));
+	if ($num > 0) {
+		header ("Location: signuppage.php?error=USERNAME HAS BEEN TAKEN");
+		exit();
+	}
 	
 	if(empty($username) || empty($password) || empty($email)) {
 		header ("Location: signuppage.php?error=MISSING INFORMATION");
